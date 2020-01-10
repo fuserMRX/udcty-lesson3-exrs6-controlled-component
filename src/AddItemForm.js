@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class AddItemForm extends Component {
+  
+  	static propTypes = {
+      addItem: PropTypes.func.isRequired,
+    }
+
     state = {
         value: '',
     };
@@ -31,8 +36,5 @@ class AddItemForm extends Component {
     }
 }
 
-AddItemForm.propTypes = {
-  addItem: PropTypes.func.isRequired,
-}
 
 export default AddItemForm;
