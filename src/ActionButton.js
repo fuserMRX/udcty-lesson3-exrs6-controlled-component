@@ -11,7 +11,7 @@ const ActionButton = (props) => {
 
 ActionButton.propTypes = {
   deleteLastItem: PropTypes.func.isRequired,
-  disabled: PropTypes.func.isRequired
+  noItemsFound: PropTypes.func.isRequired
 }
 
 export default ActionButton;

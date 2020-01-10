@@ -32,7 +32,7 @@ class AddItemForm extends Component {
 }
 
 AddItemForm.propTypes = {
-  additem: PropTypes.func.isRequired,
+  addItem: PropTypes.func.isRequired,
 }
 
 export default AddItemForm;
